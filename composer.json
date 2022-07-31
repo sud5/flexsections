@@ -1,0 +1,10 @@
+{
+    "name": "sud5/moodle-format_flexsections",
+    "type": "moodle-format",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "flexsections"
+    }
+}
