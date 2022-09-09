@@ -56,10 +56,10 @@ class header extends \core_courseformat\output\local\content\section\header {
             }
         }
 
-        if (!$this->section->section) {
-            // Do not make display header for the "General" section.
-            $data->title = '';
-        }
+//        if (!$this->section->section) {
+//            // Do not make display header for the "General" section.
+//            $data->title = '';
+//        }
 
         $data->headerdisplaymultipage = !empty($data->headerdisplaymultipage);
         return $data;
